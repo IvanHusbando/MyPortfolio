@@ -9,12 +9,7 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/1.png';
-import Project2 from './assets/img/projects/1.png';
-import Project3 from './assets/img/projects/1.png';
-import Project4 from './assets/img/projects/1.png';
-import Project5 from './assets/img/projects/1.png';
-import Project6 from './assets/img/projects/1.png';
+import Project1 from './assets/img/projects/Rick-and-Morty-APP-min.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -70,56 +65,11 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'React',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.google.com',
-    repository: 'https://www.github.com'
-  },
-  {
-    id: '2',
-    image: Project2,
-    name: 'project name 2',
+    name: 'Rick and Morty Search Characters',
     category: 'React / Bootstrap',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.github.com',
-    repository: 'https://www.github.com'
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'React',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.github.com',
-    repository: 'https://www.github.com'
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'React / Tailwind',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.github.com',
-    repository: 'https://www.github.com'
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'React',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.github.com',
-    repository: 'https://www.github.com'
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'React',
-    buttonLabel: 'Repositorio',
-    url: 'https://www.github.com',
-    repository: 'https://www.github.com'
+    buttonLabel: 'Repository',
+    url: 'https://ivan-rickandmorty.netlify.app/',
+    repository: 'https://github.com/IvanHusbando/Rick-and-Morty-CharacterSearch'
   },
 ];
 

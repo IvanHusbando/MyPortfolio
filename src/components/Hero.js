@@ -4,8 +4,8 @@ import React from 'react'
 import Coding from '../assets/img/programming.svg'
 
 const Hero = () => {
-  const cvESURL = `${process.env.PUBLIC_URL}CV-Ivan_Vizcarra.pdf`
-  const cvENURL = `${process.env.PUBLIC_URL}CV-Ivan_Vizcarra.pdf`
+  const cvESURL = `${process.env.PUBLIC_URL}Ivan-CV-ES.pdf`
+  const cvENURL = `${process.env.PUBLIC_URL}Ivan-CV.pdf`
   return (
     <section id='home'
     className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center
@@ -26,8 +26,9 @@ const Hero = () => {
               </p>
               <div className="flex flex-row">
 
-              <a href={cvESURL} download="IvanV_ResumeES.pdf" className='p-4 m-4 btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'>Descargar mi CV (ES)</a>
-              <a href={cvENURL} download="IvanV_Resume.pdf" className='p-4 m-4 btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'>Download my CV (EN)</a>
+              <a href={cvENURL} download="Ivan-CV.pdf" className='p-4 m-4 btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'>Download my CV (EN)</a>
+              <a href={cvESURL} download="Ivan-CV-ES.pdf" className='p-4 m-4 btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'>Descargar mi CV (ES)</a>
+              
               </div>
             </div>
             {/* right side */}

@@ -6,7 +6,7 @@ import Projects from './Projects'
 const Portfolio = () => {
   return (
     <section id='portfolio' className='section
-    bg-primary min-h-[1400px]'>
+    bg-primary '>
         <div className='container mx-auto'>
           <div className='flex flex-col items-center text-center'>
             <h2 className='section-title 
