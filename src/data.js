@@ -10,6 +10,7 @@ import {
 
 // projects images
 import Project1 from './assets/img/projects/Rick-and-Morty-APP-min.png';
+import Project2 from './assets/img/projects/Todo-list.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -71,6 +72,15 @@ export const projectsData = [
     url: 'https://ivan-rickandmorty.netlify.app/',
     repository: 'https://github.com/IvanHusbando/Rick-and-Morty-CharacterSearch'
   },
+  {
+    id: '2',
+    image: Project2,
+    name: 'Todo-List',
+    category: 'React',
+    buttonLabel: 'Repository',
+    url: 'https://ivantodoreact.netlify.app/',
+    repository: 'https://github.com/IvanHusbando/To-DoList-React'
+  },
 ];
 
 // projects
@@ -79,13 +89,7 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'React',
-  },
-  {
     name: 'React / Bootstrap',
-  },
-  {
-    name: 'React / Tailwind',
   },
 ];
 
