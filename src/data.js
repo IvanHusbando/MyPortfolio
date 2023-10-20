@@ -11,6 +11,7 @@ import {
 // projects images
 import Project1 from './assets/img/projects/Rick-and-Morty-APP-min.png';
 import Project2 from './assets/img/projects/Todo-list.png';
+import Project3 from './assets/img/projects/dashboard.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -81,6 +82,15 @@ export const projectsData = [
     url: 'https://ivantodoreact.netlify.app/',
     repository: 'https://github.com/IvanHusbando/To-DoList-React'
   },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Responsive-Admin-Dashboard-DarkMode',
+    category: 'JavaScript, CSS, HTML',
+    buttonLabel: 'Repository',
+    url: 'https://ivandashboard.netlify.app/',
+    repository: 'https://github.com/IvanHusbando/Responsive-Admin-Dashboard-DarkMode'
+  },
 ];
 
 // projects
@@ -90,6 +100,9 @@ export const projectsNav = [
   },
   {
     name: 'React / Bootstrap',
+  },
+    {
+    name: 'JavaScript, CSS, HTML',
   },
 ];
 
